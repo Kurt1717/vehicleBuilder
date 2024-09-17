@@ -31,12 +31,12 @@ constructor(
   super();
 // TODO: The constructor should initialize the properties of the Motorbike class
   this.vin = vin;
-    this.color = color;
-    this.make = make;
-    this.model = model;
-    this.year = year;
-    this.weight = weight;
-    this.topSpeed = topSpeed;
+  this.color = color;
+  this.make = make;
+  this.model = model;
+  this.year = year;
+  this.weight = weight;
+  this.topSpeed = topSpeed;
   // TODO: The constructor should check if the wheels array has 2 elements and create 2 new default Wheel objects if it does not
     if (wheels.length !== 2) {
       this.wheels = [new Wheel(), new Wheel()];
@@ -69,7 +69,6 @@ constructor(
       `Wheel 2: ${this.wheels[1].getDiameter} inch with a ${this.wheels[1].getTireBrand} tire`
     );
   }
-
 }
 
 // Export the Motorbike class as the default export
