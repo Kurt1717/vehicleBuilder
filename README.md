@@ -16,3 +16,4 @@ This product includes the MIT license
 TypeScript, inquirer package
 ## Contributions
 I used chatGPT in order to assist with checking errors I had when it came to if statements when performing actions and also received advice from my instructors on the thought process when creating the methods and constructors. 
+* Link to repository: https://github.com/Kurt1717/vehicleBuilder.git
